@@ -73,6 +73,8 @@
     articleView.handleMainNav();
     articleView.setTeasers();
   };
+
   Article.fetchAll(articleView.renderIndexPage);
   module.articleView = articleView;
+  
 })(window);
